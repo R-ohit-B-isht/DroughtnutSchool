@@ -60,7 +60,7 @@
             </h2>
             <div _ngcontent-chr-c50="" class="flex flex-col gap-4 text-xs xl:text-base snipcss0-3-24-26 snip-div">
               <div _ngcontent-chr-c50="" class="snipcss0-4-26-27 snip-div">
-                <a _ngcontent-chr-c50="" href="mailTo://support@fincotel.online" class="snipcss0-5-27-28 snip-a">
+                <a _ngcontent-chr-c50="" href="#/" class="snipcss0-5-27-28 snip-a">
                   hello@fincotel.online
                 </a>
               </div>
@@ -133,9 +133,7 @@
             <h1>FincoTel</h1>
             
           </div>
-          <div _ngcontent-chr-c50="" class="w-20 snipcss0-2-53-56 snip-div">
-            <img _ngcontent-chr-c50="" alt="NDIC logo" src="https://pivo.africa/assets/images/ndic.png" class="snipcss0-3-56-57 snip-img">
-          </div>
+          
         </div>
         <div _ngcontent-chr-c50="" class="text-white w-full xl:w-5/12 xl:mt-0 xl:text-base xl:mr-auto xl:text-left font-semibold text-center text-xs mt-6 pb-12 snipcss0-1-1-58 snip-div">
           FincoTel Technology Limited © 2022 
