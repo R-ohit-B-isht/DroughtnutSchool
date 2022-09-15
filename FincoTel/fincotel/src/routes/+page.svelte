@@ -131,7 +131,7 @@ body{overflow-x:hidden;scroll-behavior:smooth;}
 body::-webkit-scrollbar{width:.4em;}
 body::-webkit-scrollbar-track{box-shadow:inset 0 0 6px #bad5ff;}
 body::-webkit-scrollbar-thumb{border-radius:20px;--tw-bg-opacity:1;background-color:rgba(5,77,163,var(--tw-bg-opacity));outline:none;}
-/*! CSS Used from: https://pivo.africa/styles.cbd108dc1bfb9f1d.css ; media=all */
+
 @media all{
 *,:before,:after{box-sizing:border-box;}
 body{margin:0;}

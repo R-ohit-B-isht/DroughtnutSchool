@@ -135,9 +135,9 @@
                   <a routerlink="/" href="#/" class="snip-a">
                     <pivo-image alt="Pivo logo" class="!h-8">
                       <picture>
-                        <source media="(min-width: 1024px)" srcset="https://pivo.africa/assets/images/pivo-dark.png">
-                        <source media="(max-width: 1023px)" srcset="https://pivo.africa/assets/images/pivo-dark.png">
-                        <img class="w-auto h-auto lg:h-full !h-8 snip-img" alt="Pivo logo" src="https://pivo.africa/assets/images/pivo-dark.png">
+                        <source media="(min-width: 1024px)" srcset={fincotel}>
+                        <source media="(max-width: 1023px)" srcset={fincotel}>
+                        <img class="w-auto h-auto lg:h-full !h-8 snip-img" alt="Pivo logo" src={fincotel}>
                       </picture>
                     </pivo-image>
                   </a>
