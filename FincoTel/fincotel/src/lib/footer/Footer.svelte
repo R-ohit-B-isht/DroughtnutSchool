@@ -70,7 +70,7 @@
                 </a>
               </div> -->
               <div _ngcontent-chr-c50="" class="flex gap-4 socials snipcss0-4-26-31 snip-div">
-                <a _ngcontent-chr-c50="" target="_blank" href="#/" class="snipcss0-5-31-32 snip-a">
+                <a _ngcontent-chr-c50="" target="_blank" href="https://www.linkedin.com/company/fincotel-online/" class="snipcss0-5-31-32 snip-a">
                   <i-feather _ngcontent-chr-c50="" name="linkedin" style="height: 14px; width: 14px; fill: #fefefe;" _nghost-chr-c9="" class="snipcss0-6-32-33">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-linkedin snipcss0-7-33-34 snip-svg">
                       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
