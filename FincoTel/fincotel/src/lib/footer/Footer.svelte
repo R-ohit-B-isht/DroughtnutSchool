@@ -1,3 +1,6 @@
+<script>
+
+</script>
 
 	<footer _ngcontent-chr-c50="" class="bg-dark-blue pt-24 px-4 sm:px-16 xl:pb-14 xl:flex xl:flex-wrap xl:justify-between xl:px-24 snipcss0-0-0-1 snipcss-LdnHI">
         <div _ngcontent-chr-c50="" class="flex flex-wrap xl:w-[29%] snipcss0-1-1-2 snip-div">
@@ -51,6 +54,11 @@
                 <button _ngcontent-chr-c50="" class="snipcss0-5-22-23 snip-button">
                   Terms &amp; Conditions
                 </button>
+              </li>
+              <li _ngcontent-chr-c50="" class="snipcss0-4-15-22">
+                <a _ngcontent-chr-c50="" routerlink="legal notice" href='/legalNotice' class="snipcss0-5-16-17 snip-a">
+                  Legal Policy
+                </a>
               </li>
             </ul>
           </nav>
@@ -142,7 +150,7 @@
         <!---->
       </footer>
     
-
+    
       <style>
         @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 

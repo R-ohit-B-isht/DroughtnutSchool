@@ -1,4 +1,5 @@
 <script>
+  	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import logo from './svelte-logo.svg';
   import fincotel from "$lib/assets/fincotel.png"
@@ -8,9 +9,13 @@
 
 	
 	let menuOpen = false;
-	
-
-
+  function scrollIntoView({ target }) {
+		const el = document.querySelector(target.getAttribute('href'));
+		if (!el) return;
+    el.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
 
    let is_visible=true
    function toggle(){
@@ -29,7 +34,7 @@
 		  <pivo-logo _ngcontent-qgw-c49="" class="ng-tns-c49-0">
 			<div class="inline-block">
         <div class="mob-view-logo">
-			  <a routerlink="/" href="#/" class="snip-a">
+			  <a routerlink="/" href="/" class="snip-a">
 				<pivo-image alt="Pivo logo" class="!h-8">
 				  <picture>
 					<source media="(min-width: 1024px)" srcset={fincotel}>
@@ -70,7 +75,7 @@
           <div _ngcontent-yld-c49="" class="flex justify-between w-full lg:hidden ng-tns-c49-0 snip-div">
             <pivo-logo _ngcontent-yld-c49="" class="ng-tns-c49-0">
               <div class="inline-block snip-div">
-                <a routerlink="/" href="#/" class="snip-a">
+                <a routerlink="/" href="/" class="snip-a">
                   <pivo-image alt="Pivo logo" class="!h-8">
                     <picture>
                       <source media="(min-width: 1024px)" srcset={fincotel}>
@@ -96,37 +101,37 @@
           margin-left: 1rem;
           margin-right: 1rem;
       ">
-            <li _ngcontent-yld-c49="" class="w-full flex flex-wrap justify-between items-center ng-tns-c49-0 ng-star-inserted">
+            <li style="
+            display: inline-block;padding:1rem;"
+         _ngcontent-yld-c49="" class="w-full flex flex-wrap justify-between items-center ng-tns-c49-0 ng-star-inserted">
               <span _ngcontent-yld-c49="" class="ng-tns-c49-0 snip-span">
                 <a _ngcontent-yld-c49="" href="#" class="ng-tns-c49-0 snip-a">
                   Products
                 </a>
               </span>
-              <span _ngcontent-yld-c49="" class="ng-tns-c49-0 snip-span">
-                <i-feather _ngcontent-yld-c49="" style="width: 28px; height: 28px;" class="ng-tns-c49-0" _nghost-yld-c9="">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-chevron-right snip-svg">
-                    <polyline points="9 18 15 12 9 6">
-                    </polyline>
-                  </svg>
-                </i-feather>
-              </span>
+             
             </li>
-            <li _ngcontent-yld-c49="" class="w-full ng-tns-c49-0">
+            <li _ngcontent-yld-c49="" class="w-full ng-tns-c49-0"style="
+            display: inline-block;padding:1rem;">
               <a _ngcontent-yld-c49="" routerlink="about-us" class="ng-tns-c49-0 snip-a" href="#/about-us">
                 About Us
               </a>
             </li>
-            <li _ngcontent-yld-c49="" class="w-full ng-tns-c49-0 ng-star-inserted">
-              <a _ngcontent-yld-c49="" routerlink="faq" class="ng-tns-c49-0 snip-a" href="#/faq">
+            <li _ngcontent-yld-c49="" class="w-full ng-tns-c49-0 ng-star-inserted" style="
+            display: inline-block;padding:1rem;">
+              <a on:click|preventDefault={scrollIntoView} _ngcontent-yld-c49="" routerlink="faq" class="ng-tns-c49-0 snip-a" href="#faq">
                 FAQs
               </a>
             </li>
-            <li _ngcontent-yld-c49="" class="w-full mb-20 ng-tns-c49-0">
+            <li _ngcontent-yld-c49="" class="w-full mb-20 ng-tns-c49-0"style="
+            display: inline-block;padding:1rem;">
               <a _ngcontent-yld-c49="" routerlink="contact-us" class="ng-tns-c49-0 snip-a" href="#/contact-us">
                 Contact Us
               </a>
             </li>
-            <li _ngcontent-yld-c49="" class="ng-tns-c49-0">
+            <li _ngcontent-yld-c49="" class="ng-tns-c49-0" style="
+            width: 100%;
+         inline-block;padding:1rem;">
               <a _ngcontent-yld-c49="" href="#" target="_blank" class="ng-tns-c49-0 snip-a">
                 Blog
               </a>
@@ -137,7 +142,7 @@
             <div _ngcontent-yld-c49="" class="w-[25%] ng-tns-c49-0 snip-div">
               <pivo-logo _ngcontent-yld-c49="" class="ng-tns-c49-0">
                 <div class="inline-block snip-div">
-                  <a routerlink="/" href="#/" class="snip-a">
+                  <a routerlink="/" href="/" class="snip-a">
                     <pivo-image alt="Pivo logo" class="!h-8">
                       <picture>
                         <source media="(min-width: 1024px)" srcset={fincotel}>
@@ -169,7 +174,7 @@
                 </a>
               </li>
               <li _ngcontent-yld-c49="" class="ng-tns-c49-0 ng-star-inserted">
-                <a _ngcontent-yld-c49="" routerlinkactive="text-primary-blue" routerlink="faq" class="ng-tns-c49-0 snip-a" href="#/faq">
+                <a  on:click|preventDefault={scrollIntoView} _ngcontent-yld-c49="" routerlinkactive="text-primary-blue" routerlink="faq" class="ng-tns-c49-0 snip-a" href="#faq">
                   FAQs
                 </a>
               </li>
@@ -217,7 +222,7 @@
 		  <div _ngcontent-qgw-c49="" class="w-[25%] ng-tns-c49-0">
 			<pivo-logo _ngcontent-qgw-c49="" class="ng-tns-c49-0">
 			  <div class="inline-block">
-				<a routerlink="/" href="#/" class="snip-a">
+				<a routerlink="/" href="/" class="snip-a">
           <!-- <h1>FincoTel</h1> -->
 				  <pivo-image alt="Pivo logo" class="!h-8">
              
@@ -244,7 +249,7 @@
 			  </a>
 			</li>
 			<li _ngcontent-qgw-c49="" class="ng-tns-c49-0 ng-star-inserted">
-			  <a _ngcontent-qgw-c49="" routerlinkactive="text-primary-blue" routerlink="faq" class="ng-tns-c49-0 snip-a" href="#/faq">
+			  <a  on:click|preventDefault={scrollIntoView} _ngcontent-qgw-c49="" routerlinkactive="text-primary-blue" routerlink="faq" class="ng-tns-c49-0 snip-a" href="#faq">
 				FAQs
 			  </a>
 			</li>
