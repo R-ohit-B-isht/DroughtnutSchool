@@ -1,7 +1,15 @@
-<div style="
-/* margin: 0; */
-margin-top: -.5rem;
-"_ngcontent-gln-c23="" class="bg-gradient-to-tr to-[#00FDFF] from-[#0165FE] -mx-4 relative h-[100vh] xl:h-[100vh] lg:h-[70vh] ng-tns-c23-1 s-y_bCXRrkrYfP">
+<!-- <script context="module">
+    let x = 7;
+	export function tx(){
+		if(x==7){
+			x=11
+		}
+		else{x=7}
+	}
+</script> -->
+
+<legal>
+<div style="margin-top: -.5rem;padding: 1rem;padding-bottom: 60rem;margin-right: -.5rem;" _ngcontent-gln-c23="" class="bg-gradient-to-tr to-[#00FDFF] from-[#0165FE] -mx-4 relative h-[100vh] xl:h-[100vh] lg:h-[70vh] ng-tns-c23-1 s-y_bCXRrkrYfP">
 
 <div class="legal" style="margin-top: 7rem;border-radius: 1rem;color: white;background: rgba(255, 255, 255, 0.2);border-radius: 16px;box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);-webkit-backdrop-filter: blur(5px);border: 1px solid rgba(255, 255, 255, 0.3);">
     <h1 style="text-align:center;">Legal Notice</h1>
@@ -50,6 +58,16 @@ The owners of these linked websites take sole responsibility for their contents.
 </div>
 
 </div>
+
+<!-- 
+{#if x > 10}
+	<p>A</p>
+{:else}
+	<h1>
+		B
+</h1>
+{/if} -->
+</legal>
 <style>
      /*! CSS Used from: Embedded */
 div{user-select:text!important;}

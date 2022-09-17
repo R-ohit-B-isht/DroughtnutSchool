@@ -6,9 +6,9 @@
           <a routerlink="/" href="#/" class="snip-a">
             <pivo-image alt="Pivo logo" class="!h-8">
               <picture>
-                <source media="(min-width: 1024px)" srcset="https://pivo.africa/assets/images/pivo-dark.png">
-                <source media="(max-width: 1023px)" srcset="https://pivo.africa/assets/images/pivo-dark.png">
-                <img class="w-auto h-auto lg:h-full !h-8 snipcss0-0-0-1 tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center snip-img" alt="Pivo logo" src="https://pivo.africa/assets/images/pivo-dark.png">
+                <source media="(min-width: 1024px)" srcset="#">
+                <source media="(max-width: 1023px)" srcset="#">
+                <img class="w-auto h-auto lg:h-full !h-8 snipcss0-0-0-1 tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center snip-img" alt="Pivo logo" src="#">
               </picture>
             </pivo-image>
           </a>
@@ -57,7 +57,7 @@
         </a>
       </li>
       <li _ngcontent-yld-c49="" class="ng-tns-c49-0">
-        <a _ngcontent-yld-c49="" href="http://blog.pivo.africa/" target="_blank" class="ng-tns-c49-0 snip-a">
+        <a _ngcontent-yld-c49="" href="#" target="_blank" class="ng-tns-c49-0 snip-a">
           Blog
         </a>
       </li>
@@ -70,9 +70,9 @@
             <a routerlink="/" href="#/" class="snip-a">
               <pivo-image alt="Pivo logo" class="!h-8">
                 <picture>
-                  <source media="(min-width: 1024px)" srcset="https://pivo.africa/assets/images/pivo-dark.png">
-                  <source media="(max-width: 1023px)" srcset="https://pivo.africa/assets/images/pivo-dark.png">
-                  <img class="w-auto h-auto lg:h-full !h-8 snip-img" alt="Pivo logo" src="https://pivo.africa/assets/images/pivo-dark.png">
+                  <source media="(min-width: 1024px)" srcset="#">
+                  <source media="(max-width: 1023px)" srcset="#">
+                  <img class="w-auto h-auto lg:h-full !h-8 snip-img" alt="Pivo logo" src="#">
                 </picture>
               </pivo-image>
             </a>
@@ -109,19 +109,19 @@
           </a>
         </li>
         <li _ngcontent-yld-c49="" class="ng-tns-c49-0">
-          <a _ngcontent-yld-c49="" href="http://blog.pivo.africa/" target="_blank" class="ng-tns-c49-0 snip-a">
+          <a _ngcontent-yld-c49="" href="#" target="_blank" class="ng-tns-c49-0 snip-a">
             Blog
           </a>
         </li>
       </ul>
       <div _ngcontent-yld-c49="" class="flex justify-end gap-4 xl:gap-6 items-center w-[25%] ng-tns-c49-0 ng-star-inserted snip-div">
         <span _ngcontent-yld-c49="" class="ng-tns-c49-0 text-white snip-span">
-          <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="https://app.pivo.africa/#/auth/login">
+          <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="#">
             Sign in
           </a>
         </span>
         <button _ngcontent-yld-c49="" class="flex gap-1 justify-center text-[.7em] xl:text-sm items-center p-2 xl:px-[15px] xl:py-4 py-4 hover:shadow rounded-lg items-middle bg-primary-blue text-white ng-tns-c49-0 snip-button">
-          <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="https://app.pivo.africa/#/auth/signup">
+          <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="#">
             Create an account
           </a>
           <i-feather _ngcontent-yld-c49="" name="arrow-right" class="animated-arrow ng-tns-c49-0" style="height: 14px; width: 14px;" _nghost-yld-c9="">
@@ -142,10 +142,7 @@
   <style>
     @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
-@font-face { 
-  font-family:Inter;
-  src:url(https://pivo.africa/Inter-Regular.f40d63d7760e63dd.ttf) format("TrueType");
-} 
+
 * { 
     box-sizing:   border-box; 
     border-width:  0; 

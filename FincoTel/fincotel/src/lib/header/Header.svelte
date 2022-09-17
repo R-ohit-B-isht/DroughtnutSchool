@@ -1,11 +1,6 @@
 <script>
-  	import { onMount } from 'svelte';
-	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
-  import fincotel from "$lib/assets/fincotel.png"
-  import mobnav from "$lib/mobile-nav/MobNav.svelte"
-  import Link from '$lib/mobile-nav/link.svelte';
-	import Button from '$lib/mobile-nav/button.svelte';
+
+  import fincotel from "../assets/fincotel.png";
 
 	
 	let menuOpen = false;
@@ -17,15 +12,7 @@
     });
   }
 
-   let is_visible=true
-   function toggle(){
-    if(is_visible==false){
-      is_visible=true
-    }
-    else{
-      is_visible=false
-    }
-   }
+   
 </script>
 
 <header>
@@ -154,7 +141,9 @@
                 </div>
               </pivo-logo>
             </div>
-            <ul _ngcontent-yld-c49="" class="flex gap-[50px] text-sm ng-tns-c49-0 text-white snip-ul">
+            <ul _ngcontent-yld-c49="" class="flex gap-[50px] text-sm ng-tns-c49-0 text-white snip-ul" style="
+            font-size: 1.1rem;
+        ">
               <li _ngcontent-yld-c49="" class="flex gap-[5px] product-link ng-tns-c49-0 ng-star-inserted">
                 <span _ngcontent-yld-c49="" class="inline-block w-full cursor-pointer ng-tns-c49-0 snip-span">
                   Products
@@ -184,19 +173,19 @@
                 </a>
               </li>
               <li _ngcontent-yld-c49="" class="ng-tns-c49-0">
-                <a _ngcontent-yld-c49="" href="http://blog.pivo.africa/" target="_blank" class="ng-tns-c49-0 snip-a">
+                <a _ngcontent-yld-c49="" href="#" target="_blank" class="ng-tns-c49-0 snip-a">
                   Blog
                 </a>
               </li>
             </ul>
             <div _ngcontent-yld-c49="" class="flex justify-end gap-4 xl:gap-6 items-center w-[25%] ng-tns-c49-0 ng-star-inserted snip-div">
               <span _ngcontent-yld-c49="" class="ng-tns-c49-0 text-white snip-span">
-                <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="https://app.pivo.africa/#/auth/login">
+                <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="#">
                   Sign in
                 </a>
               </span>
               <button _ngcontent-yld-c49="" class="flex gap-1 justify-center text-[.7em] xl:text-sm items-center p-2 xl:px-[15px] xl:py-4 py-4 hover:shadow rounded-lg items-middle bg-primary-blue text-white ng-tns-c49-0 snip-button">
-                <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="https://app.pivo.africa/#/auth/signup">
+                <a _ngcontent-yld-c49="" target="_blank" class="ng-tns-c49-0 snip-a" href="#">
                   Create an account
                 </a>
                 <i-feather _ngcontent-yld-c49="" name="arrow-right" class="animated-arrow ng-tns-c49-0" style="height: 14px; width: 14px;" _nghost-yld-c9="">
@@ -236,7 +225,9 @@
 			  </div>
 			</pivo-logo>
 		  </div>
-		  <ul _ngcontent-qgw-c49="" class="flex gap-[50px] text-sm ng-tns-c49-0 text-white snip-ul">
+		  <ul _ngcontent-qgw-c49="" class="flex gap-[50px] text-sm ng-tns-c49-0 text-white snip-ul" style="
+      font-size: 1.1rem;
+  ">
 			<li _ngcontent-qgw-c49="" class="flex gap-[5px] product-link ng-tns-c49-0 ng-star-inserted">
 			  <span _ngcontent-qgw-c49="" class="inline-block w-full cursor-pointer ng-tns-c49-0">
 				Products
@@ -299,10 +290,7 @@
   .mob-view-logo{
     padding-bottom: 20px;
   }
-	@font-face { 
-  font-family:Inter;
-  src:url(https://pivo.africa/Inter-Regular.f40d63d7760e63dd.ttf) format("TrueType");
-} 
+
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
 * { 
     box-sizing:   border-box; 

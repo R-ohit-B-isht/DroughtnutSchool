@@ -1,5 +1,9 @@
 <script>
 
+// import { toggle } from "../../routes/+layout.svelte"
+// import {tx} from "../../routes/legal.svelte"
+
+
 </script>
 
 	<footer _ngcontent-chr-c50="" class="bg-dark-blue pt-24 px-4 sm:px-16 xl:pb-14 xl:flex xl:flex-wrap xl:justify-between xl:px-24 snipcss0-0-0-1 snipcss-LdnHI">
@@ -55,11 +59,12 @@
                   Terms &amp; Conditions
                 </button>
               </li>
-              <li _ngcontent-chr-c50="" class="snipcss0-4-15-22">
-                <a _ngcontent-chr-c50="" routerlink="legal notice" href='/legalNotice' class="snipcss0-5-16-17 snip-a">
+              <!-- <li _ngcontent-chr-c50="" class="snipcss0-4-15-22">
+                <button on:click={toggle} class="snipcss0-5-16-17 snip-a">
                   Legal Policy
-                </a>
-              </li>
+                </button>
+              </li> -->
+              
             </ul>
           </nav>
           <div _ngcontent-chr-c50="" class="w-5/12 sm:w-[28%] flex flex-col gap-6 snipcss0-2-12-24 snip-div">
@@ -156,14 +161,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
 @import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
-@font-face { 
-  font-family:Goldplay;
-  src:url("https://pivo.africa/Goldplay-Regular.614cf573e46c75a5.otf") format("opentype");
-} 
-@font-face { 
-  font-family:Goldplay-600;
-  src:url("https://pivo.africa/Goldplay-Medium.6d547a14dc426a5d.otf") format("opentype");
-} 
+
+
 * { 
     box-sizing:   border-box; 
     border-width:  0; 
